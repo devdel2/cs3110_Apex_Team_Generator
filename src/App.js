@@ -42,12 +42,17 @@ function SpinButton({ randTeam }) {
   return <button className="centered" onClick={randTeam}>Spin!</button>
 }
 
+function Test(){
+  return <h1>HELLO</h1>
+}
+
 //RENDER COMPONENTS IN APP
 function App() {
   return (
     <>
       <Title />
       <Roulette />
+      <Test />
     </>
   );
 }
