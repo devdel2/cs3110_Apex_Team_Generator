@@ -52,7 +52,6 @@ function App() {
     <>
       <Title />
       <Roulette />
-      <Test />
     </>
   );
 }
