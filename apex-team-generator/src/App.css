@@ -1,0 +1,26 @@
+
+.title{
+  font-size:x-large;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+}
+
+.roulette-row{
+  margin: auto;
+}
+
+.square{
+  display:inline-block;
+  padding: 25px;
+  border: solid 1px black;
+}
+
+.centered{
+  display: block;
+  margin: auto;
+}
+
+.bg-red{
+  background-color: tomato;
+}
