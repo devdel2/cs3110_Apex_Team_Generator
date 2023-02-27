@@ -12,14 +12,11 @@
 
 .square{
   display:inline-block;
+  margin: 0 2rem;
   padding: 25px;
   width: 100px;
   height: 80px;
   border: solid 1px black;
-}
-
-.square:nth-of-type(odd){
-  margin: 0 2rem;
 }
 
 .centered{
