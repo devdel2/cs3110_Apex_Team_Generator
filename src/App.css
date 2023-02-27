@@ -13,7 +13,13 @@
 .square{
   display:inline-block;
   padding: 25px;
+  width: 30px;
+  height: 30px;
   border: solid 1px black;
+}
+
+.square:nth-of-type(odd){
+  margin: 0 2rem;
 }
 
 .centered{
@@ -23,4 +29,11 @@
 
 .bg-red{
   background-color: tomato;
+}
+
+
+/*place this at the bottom to override ind comp. vert margins*/
+.v-spacer{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

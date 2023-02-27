@@ -14,37 +14,44 @@ function Title() {
   return <div className="title bg-red">{title}</div>
 }
 
-//ROULETTE SQUARE
-function RSquare({ legend }) {
-  return <div className="square">{legend}</div>
-}
+
 
 //ROUTLETTE
 function Roulette() {
   const [squares, setSquares] = useState(Array(3).fill(null));
+
+  const generateTeam = (squares) => {
+    let a = Array.from({length: 3}, () => Math.floor(Math.random() * 23));
+    setSquares(squares = a);
+    return a
+  }
+
+  //ROULETTE SQUARE
+  function RSquare({ legend }) {
+    return <div className="square v-spacerx">{legend}</div>
+  }
+
+  //SPIN BUTTON
+  function SpinButton({ genTeam }) {
+    return <button className="centered v-spacer" onClick={genTeam}>Spin!</button>
+  }
+
   return (
     <>
-      <div className="title">
+      <div className="title v-spacer">
         <div>Generate Your Team</div>
         <div className="roulette-row">
           <RSquare legend={squares[0]} />
-          <RSquare legend={squares[0]} />
-          <RSquare legend={squares[0]} />
-          <SpinButton />
+          <RSquare legend={squares[1]} />
+          <RSquare legend={squares[2]} />
+          <SpinButton genTeam={generateTeam}/>
         </div>
       </div>
     </>
   )
 }
 
-//SPIN BUTTON
-function SpinButton({ randTeam }) {
-  return <button className="centered" onClick={randTeam}>Spin!</button>
-}
 
-function Test(){
-  return <h1>HELLO</h1>
-}
 
 //RENDER COMPONENTS IN APP
 function App() {
