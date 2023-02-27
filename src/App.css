@@ -1,9 +1,13 @@
 
-.title{
+.title, .nav-title{
   font-size:x-large;
   font-weight: 700;
   text-align: center;
   padding: 1rem;
+}
+
+.nav-title {
+  color: white;
 }
 
 .roulette-row{
@@ -14,8 +18,8 @@
   display:inline-block;
   margin: 0 2rem;
   padding: 25px;
-  width: 100px;
-  height: 80px;
+  width: 350px;
+  height: 200px;
   border: solid 1px black;
 }
 
@@ -26,6 +30,17 @@
 
 .bg-red{
   background-color: tomato;
+}
+
+.row{
+  display: flex;
+}
+
+.rec-tile{
+  border: solid 2px black;
+  padding: 5% 10%;
+  max-width: 650px;
+  max-height: 250px;
 }
 
 

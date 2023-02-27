@@ -8,7 +8,7 @@ import LegendSquare from "./LegendSquare";
 //ROUTLETTE
 function Roulette() {
     //controls state of the three legends selected
-    const [squares, setSquares] = useState(Array(3).fill(null));
+    const [squares, setSquares] = useState(Array(3).fill(0));
   
     //function to generate team
     const generateTeam = (squares) => {
