@@ -11,7 +11,7 @@ function App() {
     <>
       <NavTitle />
       <Roulette />
-      {/* <MoreRow /> */}
+      <MoreRow />
     </>
   );
 }

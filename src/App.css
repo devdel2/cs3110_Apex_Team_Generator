@@ -3,11 +3,14 @@
   font-size:x-large;
   font-weight: 700;
   text-align: center;
-  padding: 1rem;
 }
 
-.nav-title {
+.nav-bar {
+  display: flex;
   color: white;
+  padding: 1rem;
+  justify-content: space-between;
+  text-align: start;
 }
 
 .roulette-row{
@@ -34,18 +37,25 @@
 
 .row{
   display: flex;
+  justify-content: space-evenly;
 }
 
 .rec-tile{
   border: solid 2px black;
   padding: 5% 10%;
-  max-width: 650px;
-  max-height: 250px;
+  width: 10rem;
+  height: 4rem;
 }
-
 
 /*place this at the bottom to override ind comp. vert margins*/
 .v-spacer{
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+.h-spacer{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/*Need to add responsiveness to the roullete squares*/
+/*Need to add responsiveness to the rec tiles*/

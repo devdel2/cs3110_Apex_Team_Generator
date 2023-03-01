@@ -4,7 +4,7 @@ import LoadoutTile from "./LoadoutTile"
 const MoreRow = () => {
     return (
         <>
-            <div className="row">
+            <div className="row v-spacer">
                 <AllLegendsTile />
                 <LoadoutTile />
             </div>

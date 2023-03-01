@@ -21,12 +21,12 @@ function Roulette() {
       <>
         <div className="title v-spacer">
           <div>Generate Your Team</div>
-          <div className="roulette-row">
+          <div className="roulette-row row">
             <LegendSquare legend={squares[0]} />
             <LegendSquare legend={squares[1]} />
             <LegendSquare legend={squares[2]} />
-            <SpinButton genTeam={generateTeam}/>
           </div>
+          <SpinButton genTeam={generateTeam}/>
         </div>
       </>
     )
