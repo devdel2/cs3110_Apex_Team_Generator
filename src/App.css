@@ -13,6 +13,11 @@
   text-align: start;
 }
 
+.nav-con-r{
+  display:flex;
+  justify-content: space-between;
+}
+
 .roulette-row{
   margin: auto;
 }
@@ -23,7 +28,6 @@
   padding: 25px;
   width: 350px;
   height: 200px;
-  border: solid 1px black;
 }
 
 .centered{
@@ -45,6 +49,10 @@
   padding: 5% 10%;
   width: 10rem;
   height: 4rem;
+}
+
+.legend-pic{
+  max-width: 66%;
 }
 
 /*place this at the bottom to override ind comp. vert margins*/
