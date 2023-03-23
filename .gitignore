@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #legend data - keeping it local for now - move this to a db and query this data
-legend-data.json
+#make this visible for first commit so that i can load it to other local workspaces
+#legend-data.json

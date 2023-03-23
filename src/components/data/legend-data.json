@@ -1,0 +1,232 @@
+[
+    {
+        "legend-name" : "Ash",
+        "real-name" : "Dr. Ashleigh Reid",
+        "age" : 122,
+        "home-world" : "Unknown",
+        "class" : "Assault",
+        "tactical-ability" : "Arc Snare",
+        "pasive-ability" : "Marked For Death",
+        "ultimate-ability" : "Phase Breach"
+    },
+    {
+        "name" : "Bangalore",
+        "real-name" : "Anita Williams",
+        "age" : 40,
+        "home-world" : "Gridiron",
+        "class" : "Assault",
+        "tactical-ability" : "Smoke Launcher",
+        "pasive-ability" : "Double Time",
+        "ultimate-ability" : "Rolling Thunder"
+    },
+    {
+        "name" : "Bloodhound",
+        "real-name" : "Blodhundr",
+        "age" : 40,
+        "home-world" : "Talos",
+        "class" : "Recon",
+        "tactical-ability" : "Eye of the Allfather",
+        "pasive-ability" : "Tracker",
+        "ultimate-ability" : "Beast of the Hunt"
+    },
+    {
+        "name" : "Catalyst",
+        "real-name" : "Tressa Crystal Smith",
+        "age" : 30,
+        "home-world" : "Boreas",
+        "class" : "Controller",
+        "tactical-ability" : "Piercing Spikes",
+        "pasive-ability" : "Barricade",
+        "ultimate-ability" : "Dark Veil"
+    },
+    {
+        "name" : "Caustic",
+        "real-name" : "Alexander Nox",
+        "age" : 50,
+        "home-world" : "Gaea",
+        "class" : "Controller",
+        "tactical-ability" : "Nox Gas Trap",
+        "pasive-ability" : "Nox Vision",
+        "ultimate-ability" : "Nox Gas Grenade"
+    },
+    {
+        "name" : "Crypto",
+        "real-name" : "Tae Joon Park",
+        "age" : 24,
+        "home-world" : "Gaea",
+        "class" : "Recon",
+        "tactical-ability" : "Surveillance Drone",
+        "pasive-ability" : "Neurolink",
+        "ultimate-ability" : "Drone EMP"
+    },
+    {
+        "name" : "Fuse",
+        "real-name" : "Walter Fitzroy Jr.",
+        "age" : 55,
+        "home-world" : "Salvo",
+        "class" : "Assault",
+        "tactical-ability" : "Knuckle Cluster",
+        "pasive-ability" : "Grenadier",
+        "ultimate-ability" : "The Motherlode"
+    },
+    {
+        "name" : "Gibraltar",
+        "real-name" : "Makoa Gibraltar",
+        "age" : 32,
+        "home-world" : "Solace",
+        "class" : "Support",
+        "tactical-ability" : "Dome of Protection",
+        "pasive-ability" : "Gun Shield",
+        "ultimate-ability" : "Defensive Bombardment"
+    },
+    {
+        "name" : "Horizon",
+        "real-name" : "Dr. Mary Somers",
+        "age" : 39,
+        "home-world" : "Solace",
+        "class" : "Skirmisher",
+        "tactical-ability" : "Gravity Lift",
+        "pasive-ability" : "Spacewalk",
+        "ultimate-ability" : "Black Hole"
+    },
+    {
+        "name" : "Lifeline",
+        "real-name" : "Ajay Che",
+        "age" : 26,
+        "home-world" : "Psamathe",
+        "class" : "Support",
+        "tactical-ability" : "D.O.C. Heal Drone",
+        "pasive-ability" : "Combat Medic",
+        "ultimate-ability" : "Care Package"
+    },
+    {
+        "name" : "Loba",
+        "real-name" : "Loba Andrade",
+        "age" : 36,
+        "home-world" : "None",
+        "class" : "Support",
+        "tactical-ability" : "Burglar's Best Friend",
+        "pasive-ability" : "Eye for Quality",
+        "ultimate-ability" : "Black Market Boutique"
+    },
+    {
+        "name" : "Mad Maggie",
+        "real-name" : "Margaret Kohere",
+        "age" : 56,
+        "home-world" : "Salvo",
+        "class" : "Assault",
+        "tactical-ability" : "Riot Drill",
+        "pasive-ability" : "Warlord's Ire",
+        "ultimate-ability" : "Wrecking Ball"
+    },
+    {
+        "name" : "Mirage",
+        "real-name" : "Elliot Witt",
+        "age" : 32,
+        "home-world" : "Solace",
+        "class" : "Skirmisher",
+        "tactical-ability" : "Psyche Out",
+        "pasive-ability" : "Now You See Me...",
+        "ultimate-ability" : "Life of the Party"
+    },
+    {
+        "name" : "Newcastle",
+        "real-name" : "Jackson Williams",
+        "age" : 41,
+        "home-world" : "Gridiron",
+        "class" : "Support",
+        "tactical-ability" : "Mobile Shield",
+        "pasive-ability" : "Retrieve the Wounded",
+        "ultimate-ability" : "Castle Wall"
+    },
+    {
+        "name" : "Octane",
+        "real-name" : "Octavio Silva",
+        "age" : 26,
+        "home-world" : "Psamathe",
+        "class" : "Skirmisher",
+        "tactical-ability" : "Stim",
+        "pasive-ability" : "Swift Mend",
+        "ultimate-ability" : "Launch Pad"
+    },
+    {
+        "name" : "Pathfinder",
+        "real-name" : "Pathfinder",
+        "age" : 77,
+        "home-world" : "Psamathe",
+        "class" : "Skirmisher",
+        "tactical-ability" : "Grappling Hook",
+        "pasive-ability" : "Insider Knowledge",
+        "ultimate-ability" : "Zipline Gun"
+    },
+    {
+        "name" : "Rampart",
+        "real-name" : "Ramya Parekh",
+        "age" : 23,
+        "home-world" : "Gaea",
+        "class" : "Controller",
+        "tactical-ability" : "Amped Cover",
+        "pasive-ability" : "Modded Loader",
+        "ultimate-ability" : "Emplaced Minigun 'Sheila'"
+    },
+    {
+        "name" : "Revenant",
+        "real-name" : "Kaleb Cross",
+        "age" : 359,
+        "home-world" : "Unknown",
+        "class" : "Assault",
+        "tactical-ability" : "Silence",
+        "pasive-ability" : "Stalker",
+        "ultimate-ability" : "Death Totem"
+    },
+    {
+        "name" : "Seer",
+        "real-name" : "Obi Edolasim",
+        "age" : 27,
+        "home-world" : "Boreas",
+        "class" : "Recon",
+        "tactical-ability" : "Focus of Attention",
+        "pasive-ability" : "Heart Seeker",
+        "ultimate-ability" : "Exhibit"
+    },
+    {
+        "name" : "Valkyrie",
+        "real-name" : "Kairi Imahara",
+        "age" : 31,
+        "home-world" : "Angelia",
+        "class" : "Skirmisher",
+        "tactical-ability" : "Missile Swarm",
+        "pasive-ability" : "VTOL Jets",
+        "ultimate-ability" : "Skyward Dive"
+    },
+    {
+        "name" : "Vantage",
+        "real-name" : "Xiomara 'Mara' Contreras",
+        "age" : 19,
+        "home-world" : "Pagos",
+        "class" : "Recon",
+        "tactical-ability" : "Echo Relocation",
+        "pasive-ability" : "Spotter's Lens",
+        "ultimate-ability" : "Sniper's Mark"
+    },
+    {
+        "name" : "Wattson",
+        "real-name" : "Natalie Paquette",
+        "age" : 24,
+        "home-world" : "Solace",
+        "class" : "Controller",
+        "tactical-ability" : "Perimeter Security",
+        "pasive-ability" : "Spark of Genius",
+        "ultimate-ability" : "Interception Pylon"
+    },
+    {
+        "name" : "Wraith",
+        "real-name" : "Renee Hope Blasey",
+        "age" : 34,
+        "home-world" : "Typhon",
+        "class" : "Skirmisher",
+        "tactical-ability" : "Into the Void",
+        "pasive-ability" : "Voices from the Void",
+        "ultimate-ability" : "Dimensional Rift"
+    }
+]
