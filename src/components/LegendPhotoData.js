@@ -35,6 +35,4 @@ LegendKeys.map(name => {
     return true;
 })
 
-
-
 export default LegendPhotoData
