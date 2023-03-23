@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#legend data - keeping it local for now - move this to a db and query this data
+legend-data.json
