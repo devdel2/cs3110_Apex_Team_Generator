@@ -55,11 +55,6 @@
   max-width: 75%;
 }
 
-.column{
-  display: flex;
-  flex-direction: column;
-}
-
 /*place this at the bottom to override ind comp. vert margins*/
 .v-spacer{
   margin-top: 2rem;

@@ -26,7 +26,7 @@ function LegendSquare({ legend }) {
     const currLegend = getLegendData(legend)
     return(
       <>
-        <div className="column">         
+        <div>         
           <div className="square v-spacer">
             <AdvancedImage className="legend-pic" cldImg={cld.image(getLegendImg(legend))}/>
           </div>
@@ -35,9 +35,7 @@ function LegendSquare({ legend }) {
           </h1>
         </div>
       </>
-    )
-     
-    
+    )    
   } 
 
 export default LegendSquare
