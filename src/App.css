@@ -1,8 +1,26 @@
+@font-face {
+  font-family: "apex";   /*Can be any text*/
+  src: local("apex-legends-font"),
+    url("./components/fonts/apex-legends-font.otf") format("opentype");
+}
+
+body{
+  font-family: 'apex';
+}
 
 .title, .nav-title{
   font-size:x-large;
   font-weight: 700;
   text-align: center;
+}
+
+.nav-item{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item:hover, .spin-btn:hover, .rec-tile:hover{
+  cursor: pointer;
 }
 
 .nav-bar {
@@ -37,6 +55,15 @@
 
 .bg-red{
   background-color: tomato;
+}
+
+.spin-btn{
+  border: 1px rgb(43, 41, 41) solid;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  color: white;
+  font-family: "apex";
+  letter-spacing: 1px;
 }
 
 .row{

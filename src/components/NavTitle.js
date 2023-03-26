@@ -8,12 +8,12 @@ const loadouts = "Loadouts";
 function NavTitle() {
   return <div className="nav-bar bg-red">
     <div className="nav-con-l">
-      {title}
+      <p className="nav-item">{title}</p>
     </div>
     <div className="nav-con-r">
-      {legends}
+      <p className="nav-item">{legends}</p>
       <div className="h-spacer"></div>
-      {loadouts}
+      <p className="nav-item">{loadouts}</p>
     </div>
   </div>
 }

@@ -9,13 +9,13 @@ import LegendSquare from "./LegendSquare";
 function Roulette() {
     //controls state of the three legends selected
     const [squares, setSquares] = useState(Array(3).fill(0));
-  
+
     //function to generate team
     const generateTeam = (squares) => {
       let a = Array.from({length: 3}, () => Math.floor(Math.random() * 23));
       setSquares(squares = a);
       return a
-    } 
+    }
   
     return (
       <>
