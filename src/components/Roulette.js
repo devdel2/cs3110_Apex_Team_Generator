@@ -20,14 +20,14 @@ function Roulette() {
     return (
       <>
         <div className="title v-spacer">
-          <div>Generate Your Team</div>
-          <div className="roulette-row row">
+          <div className="title">Generate Your Team</div>
+          <div className="roulette-row">
             <LegendSquare legend={squares[0]} />
             <LegendSquare legend={squares[1]} />
             <LegendSquare legend={squares[2]} />
           </div>
-          <SpinButton genTeam={generateTeam}/>
         </div>
+        <SpinButton genTeam={generateTeam}/>
       </>
     )
   }

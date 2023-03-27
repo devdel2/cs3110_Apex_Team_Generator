@@ -26,13 +26,11 @@ function LegendSquare({ legend }) {
     const currLegend = getLegendData(legend)
     return(
       <>
-        <div>         
-          <div className="square v-spacer">
+        <div className="square">
             <AdvancedImage className="legend-pic" cldImg={cld.image(getLegendImg(legend))}/>
-          </div>
-          <h1 className="title">
-            {currLegend.legendName}
-          </h1>
+            <h1 className="title">
+              {currLegend.legendName}
+            </h1>
         </div>
       </>
     )    

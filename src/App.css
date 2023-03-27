@@ -4,11 +4,17 @@
     url("./components/fonts/apex-legends-font.otf") format("opentype");
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
 body{
   font-family: 'apex';
 }
 
-.title, .nav-title{
+div.title, .nav-title, h1.title{
   font-size:x-large;
   font-weight: 700;
   text-align: center;
@@ -17,6 +23,15 @@ body{
 .nav-item{
   padding: 0;
   margin: 0;
+}
+
+.nav-item.active{
+  text-decoration: underline;
+}
+
+a, a:visited{
+  text-decoration: none;
+  color: white;
 }
 
 .nav-item:hover, .spin-btn:hover, .rec-tile:hover{
@@ -37,6 +52,7 @@ body{
 }
 
 .roulette-row{
+  display: flex;
   margin: auto;
 }
 
@@ -44,8 +60,6 @@ body{
   display:inline-block;
   margin: 0 2rem;
   padding: 25px;
-  width: 350px;
-  height: 200px;
 }
 
 .centered{
@@ -79,7 +93,7 @@ body{
 }
 
 .legend-pic{
-  max-width: 75%;
+  max-width: 100%;
 }
 
 /*place this at the bottom to override ind comp. vert margins*/

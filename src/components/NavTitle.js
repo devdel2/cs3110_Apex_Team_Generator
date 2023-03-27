@@ -6,16 +6,16 @@ const loadouts = "Loadouts";
 // COMPONENTS //
 //TITLE
 function NavTitle() {
-  return <div className="nav-bar bg-red">
+  return <nav className="nav-bar bg-red">
     <div className="nav-con-l">
-      <p className="nav-item">{title}</p>
+      <a href="/" className="nav-item">{title}</a>
     </div>
     <div className="nav-con-r">
-      <p className="nav-item">{legends}</p>
+      <a href="/legends" className="nav-item">{legends}</a>
       <div className="h-spacer"></div>
-      <p className="nav-item">{loadouts}</p>
+      <a href="/loadouts" className="nav-item">{loadouts}</a>
     </div>
-  </div>
+  </nav>
 }
 
 
