@@ -1,3 +1,4 @@
+//home page tile component to show "All Legends"
 const AllLegendsTile = () => {
     const title = "All Legends"
     return (

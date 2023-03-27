@@ -10,6 +10,11 @@
   margin: 1rem;
 }
 
+.legends-index{
+  flex-direction: row;
+  max-width: 1800px;
+}
+
 body{
   font-family: 'apex';
 }
