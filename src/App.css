@@ -11,18 +11,19 @@
 }
 
 .legends-index{
+  display: flex;
   flex-direction: row;
-  max-width: 1800px;
 }
 
 body{
   font-family: 'apex';
 }
 
-div.title, .nav-title, h1.title{
-  font-size:x-large;
+div.title, .nav-item, h1.title{
+  font-size: large;
   font-weight: 700;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .nav-item{
@@ -59,12 +60,16 @@ a, a:visited{
 .roulette-row{
   display: flex;
   margin: auto;
+  justify-content: center;
 }
 
 .square{
-  display:inline-block;
+  display:flex;
+  flex-direction: column;
   margin: 0 2rem;
   padding: 25px;
+  max-width: 336px;
+  min-width: 103px;
 }
 
 .centered{
@@ -82,7 +87,11 @@ a, a:visited{
   padding: 1rem 2rem;
   color: white;
   font-family: "apex";
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+}
+
+.hover-me *:hover{
+  cursor: pointer;
 }
 
 .row{
@@ -101,6 +110,8 @@ a, a:visited{
   max-width: 100%;
 }
 
+
+
 /*place this at the bottom to override ind comp. vert margins*/
 .v-spacer{
   margin-top: 2rem;
@@ -112,4 +123,13 @@ a, a:visited{
   margin-right: 1rem;
 }
 /*Need to add responsiveness to the roullete squares*/
+
+@media(max-width: 1445px){
+  div.title, .nav-item, h1.title{
+    font-size: medium;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+}
 /*Need to add responsiveness to the rec tiles*/

@@ -1,7 +1,6 @@
 import LegendIndex from "../LegendsIndex";
 
 function Legends() {
-
     //return the JSX component here
     return (
         <>
@@ -10,7 +9,5 @@ function Legends() {
         </>
     )
 }
-
-
 
 export default Legends
