@@ -90,7 +90,7 @@ a, a:visited{
   letter-spacing: 2px;
 }
 
-.hover-me *:hover{
+.hover-me img{
   cursor: pointer;
 }
 
@@ -104,6 +104,10 @@ a, a:visited{
   padding: 5% 10%;
   width: 10rem;
   height: 4rem;
+}
+
+div *.title{
+  color: black;
 }
 
 .legend-pic{
