@@ -12,19 +12,18 @@ function Roulette() {
     const [squares, setSquares] = useState(Array(3).fill(0));
 
     //function to generate team
-    const generateTeam = (squares) => {
+    const generateTeam = (sq) => {
       //creates an array of three random integers 1-23
       let a = Array.from({length: 3}, () => Math.floor(Math.random() * 23));
       //sets the random array to the squares state array
-      setSquares(squares = a);
+      setSquares(sq = a);
       //checks if the team has duplicates
-      if(TriosCheckDupe(squares)){
+      if(TriosCheckDupe(sq)){
         //if true, new team is created
         a = Array.from({length: 3}, () => Math.floor(Math.random() * 23));
         //set the squares stae array to the new randomly genereated number array
-        setSquares(squares = a);
+        setSquares(sq = a);
       }
-
       //return a
       return a
     }

@@ -110,7 +110,23 @@ a, a:visited{
   max-width: 100%;
 }
 
+.legend-bio{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: solid black 1px;
+  background-color: red;
+  min-width: 640px;
+  min-height: 360px;
+  position:fixed;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  padding: 1rem;
+}
 
+.hide-me{
+  display: none;
+}
 
 /*place this at the bottom to override ind comp. vert margins*/
 .v-spacer{

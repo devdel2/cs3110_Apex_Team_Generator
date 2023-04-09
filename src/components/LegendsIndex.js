@@ -1,42 +1,42 @@
 import LegendSquare from './LegendSquare';
 
-function LegendIndex (){
+function LegendIndex ({ getLegend }){
     return (
         <>
-            <div className='container legends-index hover-me'>
-                < LegendSquare legend={0} />
-                < LegendSquare legend={1} />
-                < LegendSquare legend={2} />
-                < LegendSquare legend={3} />
+            <div className='container legends-index hover-me' >
+                < LegendSquare legend={0} getLegend={getLegend}/>
+                < LegendSquare legend={1} getLegend={getLegend}/>
+                < LegendSquare legend={2} getLegend={getLegend}/>
+                < LegendSquare legend={3} getLegend={getLegend}/>
             </div>
             <div className='container legends-index hover-me'>
-                < LegendSquare legend={4} />
-                < LegendSquare legend={5} />
-                < LegendSquare legend={6} />
-                < LegendSquare legend={7} />
+                < LegendSquare legend={4} getLegend={getLegend}/>
+                < LegendSquare legend={5} getLegend={getLegend}/>
+                < LegendSquare legend={6} getLegend={getLegend}/>
+                < LegendSquare legend={7} getLegend={getLegend}/>
             </div>
             <div className='container legends-index hover-me'>
-                < LegendSquare legend={8} />
-                < LegendSquare legend={9} />
-                < LegendSquare legend={10} />
-                < LegendSquare legend={11} />
+                < LegendSquare legend={8} getLegend={getLegend}/>
+                < LegendSquare legend={9} getLegend={getLegend}/>
+                < LegendSquare legend={10} getLegend={getLegend}/>
+                < LegendSquare legend={11} getLegend={getLegend}/>
             </div>
             <div className='container legends-index hover-me'>
-                < LegendSquare legend={12} />
-                < LegendSquare legend={13} />
-                < LegendSquare legend={14} />
-                < LegendSquare legend={15} />
+                < LegendSquare legend={12} getLegend={getLegend}/>
+                < LegendSquare legend={13} getLegend={getLegend}/>
+                < LegendSquare legend={14} getLegend={getLegend}/>
+                < LegendSquare legend={15} getLegend={getLegend}/>
             </div>
             <div className='container legends-index hover-me'>
-                < LegendSquare legend={16} />
-                < LegendSquare legend={17} />
-                < LegendSquare legend={18} />
-                < LegendSquare legend={19} />
+                < LegendSquare legend={16} getLegend={getLegend}/>
+                < LegendSquare legend={17} getLegend={getLegend}/>
+                < LegendSquare legend={18} getLegend={getLegend}/>
+                < LegendSquare legend={19} getLegend={getLegend}/>
             </div>
             <div className='container legends-index hover-me'>
-                < LegendSquare legend={20} />
-                < LegendSquare legend={21} />
-                < LegendSquare legend={22} />
+                < LegendSquare legend={20} getLegend={getLegend}/>
+                < LegendSquare legend={21} getLegend={getLegend}/>
+                < LegendSquare legend={22} getLegend={getLegend}/>
             </div>
         </>
     )
