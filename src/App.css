@@ -110,8 +110,17 @@ div *.title{
   color: black;
 }
 
+.hidden{
+  display: none;
+}
+
 .legend-pic{
   max-width: 100%;
+}
+
+.bio-container{
+  display:flex;
+  justify-content: center;
 }
 
 .legend-bio{
@@ -119,13 +128,17 @@ div *.title{
   flex-direction: column;
   box-sizing: border-box;
   border: solid black 1px;
-  background-color: red;
+  background-color: tomato;
   min-width: 640px;
   min-height: 360px;
   position:fixed;
   color: rgb(255, 255, 255);
   letter-spacing: 2px;
   padding: 1rem;
+}
+
+.spread{
+  margin: 0 2rem;
 }
 
 .hide-me{

@@ -1,8 +1,8 @@
-const LegendBioSquare = ({legend}) => {
+const LegendBioSquare = ({legend, isToggled}) => {
 
     return (
         <>
-            <div className="container">
+            <div className={isToggled ? 'bio-container' : 'hidden'}>
                 <div className="legend-bio ">
                     <h3>Legend Name: {legend.legendName} </ h3>
                     <h3>Real Name: {legend.realName} </ h3>

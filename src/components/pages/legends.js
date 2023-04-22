@@ -15,12 +15,19 @@ function Legends() {
         console.log(`The legend is at index: ${legend} and thier name is: ${l.realName}`)
     }
 
+    const [isToggled, setIsToggled] = useState(false);
+
+    function handleClick(){
+        setIsToggled(!isToggled);
+        console.log("TOGGLE ME BABY")
+    }
+
     //return the JSX component here
     return (
         <>   
             <h1 className="title">All Legends</h1>
-            < LegendBioSquare legend={currLegend}/>
-            < LegendIndex getLegend={getLegend} />
+            < LegendBioSquare legend={currLegend} isToggled={isToggled}/>
+            < LegendIndex getLegend={getLegend} hideMe={handleClick}/>
         </>
     )
 }
