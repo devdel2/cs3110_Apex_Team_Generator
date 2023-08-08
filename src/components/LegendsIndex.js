@@ -38,6 +38,7 @@ function LegendIndex ({ getLegend, hideMe }){
                 < LegendSquare legend={20} getLegend={getLegend}/>
                 < LegendSquare legend={21} getLegend={getLegend}/>
                 < LegendSquare legend={22} getLegend={getLegend}/>
+                < LegendSquare legend={23} getLegend={getLegend}/>
             </div>
         </>
     )

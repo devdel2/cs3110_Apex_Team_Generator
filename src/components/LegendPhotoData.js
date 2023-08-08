@@ -5,6 +5,7 @@ let i = 0;
 //Array of legend names to create association by name to photo url
 const LegendKeys = [
     "Ash",
+    "Ballistic",
     "Bangalore",
     "Bloodhound",
     "Catalyst",

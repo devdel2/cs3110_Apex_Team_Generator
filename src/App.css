@@ -116,6 +116,11 @@ div *.title{
 
 .legend-pic{
   max-width: 100%;
+  padding-bottom: inherit;
+}
+
+.legend-pic:hover{
+  background-color: rgb(223, 223, 223);
 }
 
 .bio-container{
@@ -124,17 +129,23 @@ div *.title{
 }
 
 .legend-bio{
+  padding: 0;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   border: solid black 1px;
-  background-color: tomato;
+  background-color: #3e3e3e;
   min-width: 640px;
   min-height: 360px;
   position:fixed;
   color: rgb(255, 255, 255);
   letter-spacing: 2px;
-  padding: 1rem;
+}
+
+.legend-bio-header{
+  height: 12px;
+  width: 100%;
+  background-color: tomato;
 }
 
 .spread{

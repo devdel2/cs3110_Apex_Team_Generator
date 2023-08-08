@@ -10,6 +10,16 @@
         "ultimateAbility" : "Phase Breach"
     },
     {
+        "legendName" : "Ballistic",
+        "realName" : "August Montgomery Brinkman",
+        "age" : 63,
+        "homeWorld" : "Gaea",
+        "class" : "Assault",
+        "tacticalAbility" : "Whistler",
+        "passiveAbility" : "Sling",
+        "ultimateAbility" : "Tempest"
+    },
+    {
         "legendName" : "Bangalore",
         "realName" : "Anita Williams",
         "age" : 40,
