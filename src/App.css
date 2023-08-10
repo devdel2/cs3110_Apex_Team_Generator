@@ -69,7 +69,7 @@ a, a:visited{
   margin: 0 2rem;
   padding: 25px;
   max-width: 336px;
-  min-width: 103px;
+  min-width: 10px;
 }
 
 .centered{

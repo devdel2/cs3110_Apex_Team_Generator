@@ -12,7 +12,7 @@ const LegendBioSquare = ({legend, isToggled}) => {
                     <h3 className="h-spacer">Class: {legend.class} </ h3>
                     <h3 className="h-spacer">Tactical Ability: {legend.tacticalAbility} </ h3>
                     <h3 className="h-spacer">Passive Ability: {legend.passiveAbility} </ h3>
-                    <h3 >Ultimate Ability: {legend.ultimateAbility} </ h3>
+                    <h3 className="h-spacer">Ultimate Ability: {legend.ultimateAbility} </ h3>
                 </div>
             </div>
         </>

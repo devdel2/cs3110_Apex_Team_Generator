@@ -30,6 +30,16 @@ function Roulette() {
       //return a
       return a
     }
+    let numTimes = Math.floor(Math.random() * (50 - 30) + 30);
+    const wait = () => {
+      setTimeout(() => {
+        generateTeam();
+        numTimes--;
+        if(numTimes > 0){
+          wait();
+        }
+      }, 50);
+    }
 
     const changeTeamSize = (num) => {
       setTeamSize(num);
@@ -52,7 +62,7 @@ function Roulette() {
             <button className="bg-red spin-btn" onClick={() => changeTeamSize(3)}>Trios</button>
           </div>
         </div>
-        <SpinButton genTeam={generateTeam}/>
+        <SpinButton genTeam={wait}/>
       </>
     )
   }
